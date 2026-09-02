@@ -26,17 +26,6 @@ let package = Package(
                 "MLImage",
                 "MLKitCommon",
                 "GoogleToolboxForMac",
-                "Common",
-            ],
-            resources: [
-                .copy("GoogleMVFaceDetectorResources.bundle")
-            ]
-        ),
-        .target(
-            name: "Common",
-            dependencies: [
-                "MLKitCommon",
-                "GoogleToolboxForMac",
                 .product(name: "GULAppDelegateSwizzler", package: "GoogleUtilities"),
                 .product(name: "GULEnvironment", package: "GoogleUtilities"),
                 .product(name: "GULLogger", package: "GoogleUtilities"),
@@ -49,6 +38,10 @@ let package = Package(
                 .product(name: "GoogleDataTransport", package: "GoogleDataTransport"),
                 .product(name: "nanopb", package: "nanopb"),
                 .product(name: "FBLPromises", package: "promises"),
+
+            ],
+            resources: [
+                .copy("GoogleMVFaceDetectorResources.bundle")
             ]
         ),
         .binaryTarget(
