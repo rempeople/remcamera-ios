@@ -46,7 +46,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RemCamera",
-            url: "https://github.com/ORG/REPO/releases/download/v0.2.1/RemCamera-0.2.1.xcframework.zip",
+            url: "https://github.com/rempeople/remcamera-ios/releases/download/0.2.1/RemCamera-0.2.1.xcframework.zip",
             checksum: "0c007056c3d270dcd66f7990717036dd58061535aac438d895d73ed7a7825f56"
         ),
         .binaryTarget(
