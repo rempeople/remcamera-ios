@@ -21,8 +21,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RemCamera",
-            url: "https://github.com/rempeople/remcamera-ios/releases/download/0.2.3/RemCamera-0.2.3.xcframework.zip",
-            checksum: "6b7f2717645462523e6e2a193a28f5484e86a564937ed5b9cf4bbf1c0a89ac4d"
+            url: "https://iosremcamerasdkstorage.blob.core.windows.net/frameworks/RemCamera-0.2.1.xcframework.zip?sp=r&st=2026-09-04T19:38:14Z&se=2026-12-05T03:53:14Z&spr=https&sv=2026-02-06&sr=b&sig=SUl2wWK2B7sYGZqE4kVo%2FYZ568ij8ExCEnaro1Khhfg%3D",
+            checksum: "8ff97a63af25ee69e60c8d31582e6ce68815d48dcbb01751c5fde04123c63bf5"
         ),
         .binaryTarget(
             name: "GoogleToolboxForMac",
