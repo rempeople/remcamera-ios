@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RemCamera",
-            url: "https://github.com/rempeople/remcamera-ios/releases/download/v0.1.0/RemCamera-0.1.0.xcframework.zip",
-            checksum: "3823b0bac5638068143b58b0c94ab76986d40d9a54fdb4a1c4e08a9e2bec6156"
+            url: "https://iosremcamerasdkstorage.blob.core.windows.net/frameworks/RemCamera-0.1.0.xcframework.zip?sp=r&st=2026-09-03T07:04:53Z&se=2026-12-03T15:19:53Z&spr=https&sv=2026-02-06&sr=b&sig=1RbvuS3QIfxTx8%2FdVH4FqO78O%2BJCPzG1OX8PBvQTdL0%3D",
+            checksum: "1f41cf47cddae59257579adbc49e19fff60e63020559c37e1af78304bf4abff2"
         ),
         .binaryTarget(
             name: "MLKitFaceDetection",
